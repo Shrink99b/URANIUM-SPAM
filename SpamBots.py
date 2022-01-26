@@ -329,7 +329,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("ℂℍ𝔸𝕃𝕆 𝔾𝔸ℕ𝔻 𝕄𝔸ℝℕ𝔼 𝕁𝕆𝕀ℕ ℍ𝕆 𝔾𝔸𝕐𝔸")
+                await event.edit("𝘾𝙃𝘼𝙇𝙊 𝙍𝘼𝙉𝘿𝙄𝙔𝙊 𝙆𝙄 𝙂𝘼𝘼𝙉𝘿 𝙈𝘼𝘼𝙍𝙉𝙀")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -384,7 +384,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("𝔹𝔸ℍ𝕌𝕋 𝔾𝔸ℕ𝔻 𝕄𝔸ℝ𝕃𝕀 𝔾ℝ𝕆𝕌ℙ 𝕄𝔸𝕀  ℂℍ𝕆ℝℕ𝔼 𝕂𝔸 𝕋𝕀𝕄𝔼 𝔸𝔸 𝔾𝔸𝕐𝔸")
+                await event.edit("𝘽𝘼𝙃𝙐𝙏 𝙂𝘼𝙉𝘿 𝙈𝘼𝘼𝙍 𝙇𝙄 𝙏𝙐𝙈𝙃𝘼𝙍𝙄 𝘼𝘽 𝘾𝙃𝙇𝙏𝙀 𝙃𝘼𝙄")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -657,7 +657,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝔸𝔹 𝔹𝕆𝕃 𝔹𝕊𝔻𝕂 𝕂𝔼"
+            text = "𝔸𝔹 𝔹𝕆𝕃 ℂℍ𝕌𝕋𝕀𝕐𝔼"
             await e.reply(text, parse_mode=None, link_preview=None)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🤤𝐆𝐀𝐍𝐃!\n`{ms}` ms\n⚔️𝗦𝗛4𝗗𝗢𝗪 𝗦𝗣𝗔𝗠𝗕𝗢𝗧⚔️")
+        await event.edit(f"𝐁𝐀𝐁𝐘.!\n`{ms}` ms\n𓆩᪵★⃟⃝🥀𓆩𝙐𝙍𝘼𝙉𝙄𝙐𝙈𓆪»🤎𓆪★⃟⃝🇮🇳 𝗦𝗣𝗔𝗠𝗕𝗢𝗧☠️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -797,7 +797,7 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "[ 𝐒𝐇4𝐃𝐎𝐖 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @SH4DOW_SPAMBOTSUPPORT"
+        text = "[  ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @SH4DOW_SPAMBOTSUPPORT"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
