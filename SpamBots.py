@@ -356,7 +356,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("ℙℝ𝕀𝕍𝔸𝕋𝔼 ℝ𝔸ℕ𝔻𝕀 🤤")
+                await event.edit("𝙋𝙍𝙄𝙑𝘼𝙏𝙀 𝙍𝘼𝙉𝘿𝙄 𝙂𝙍𝙊𝙐𝙋🤤")
             except Exception as e:
                 await event.edit(str(e))
         else:
