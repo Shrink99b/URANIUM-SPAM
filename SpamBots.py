@@ -657,7 +657,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝐍𝐎𝐖 𝐒𝐏𝐄𝐀𝐊 𝐌𝐘 𝐒𝐎𝐍
+            text = "𝔸𝔹 𝔹𝕆𝕃 𝔹𝕊𝔻𝕂 𝕂𝔼"
             await e.reply(text, parse_mode=None, link_preview=None)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
