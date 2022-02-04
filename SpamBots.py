@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🔥 𝙍𝘼𝙁𝙏𝘼𝙍 🔥.!\n`{ms}` ms\n𓆩᪵★⃟⃝🇮🇳༒☬𓆩𝙐𝙍𝘼𝙉𝙄𝙐𝙈𓆪☬༒🇮🇳")
+        await event.edit(f"🔥 𝙍𝘼𝙁𝙏𝘼𝙍 🔥.!\n`{ms}` ms\n𓆩᪵★⃟⃝⚔️𝙐𝙍𝘼𝙉𝙄𝙐𝙈 ✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
