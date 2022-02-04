@@ -657,7 +657,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝔸𝔹 𝔹𝕆𝕃 ℂℍ𝕌𝕋𝕀𝕐𝔼"
+            text = "𝐍𝐎𝐖 𝐒𝐏𝐄𝐀𝐊 𝐌𝐘 𝐒𝐎𝐍
             await e.reply(text, parse_mode=None, link_preview=None)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"𝐁𝐀𝐁𝐘.!\n`{ms}` ms\n𓆩᪵★⃟⃝🥀𓆩𝙐𝙍𝘼𝙉𝙄𝙐𝙈𓆪»🤎𓆪★⃟⃝🇮🇳 𝗦𝗣𝗔𝗠𝗕𝗢𝗧☠️")
+        await event.edit(f"🔥 𝙍𝘼𝙁𝙏𝘼𝙍 🔥.!\n`{ms}` ms\n𓆩᪵★⃟⃝🇮🇳༒☬𓆩𝙐𝙍𝘼𝙉𝙄𝙐𝙈𓆪☬༒🇮🇳")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -739,7 +739,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nℝ𝕌𝕂 𝕄𝕌𝕋ℍ 𝕄𝔸ℝ𝕃𝕆 𝕋ℍ𝕆𝔻𝔸"
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n💀𝙍𝙀𝙎𝙏𝘼𝙍𝙏 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 𝘽𝙊𝙏𝙎☠️"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
