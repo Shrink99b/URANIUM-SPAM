@@ -3,4 +3,4 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Uranium77/URANIUM-SPAM)
 
 
-# URANIUM Spam bot on 🔥
+# 𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 🔥
