@@ -1018,7 +1018,7 @@ text = """ """
 print(text)
 print("")
 print(
-    "CONGRATULATIONS 🥳🥳..UR Spam Bots Ready to use"
+    "ℂ𝕆ℕ𝔾ℝ𝔸𝕋𝕌𝕃𝔸𝕋𝕀𝕆ℕ 𝕐𝕆𝕌ℝ 𝕊ℙ𝔸𝕄 𝔹𝕆𝕋 ℝ𝔼𝔸𝔻𝕐 𝕋𝕆 𝕌𝕊𝔼 🔥"
 )
 if len(sys.argv) not in (1, 3, 4):
     try:
