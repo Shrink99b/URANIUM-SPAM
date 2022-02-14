@@ -22,7 +22,7 @@ from Config import (
     STRING,
     STRING2,
     STRING3,
-    STRING4,
+    STRING4, 
     STRING5,
     STRING6,
     STRING7,
@@ -329,7 +329,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝙅𝙊𝙄𝙉𝘿✅")
+                await event.edit("𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝙅𝙊𝙄𝙉𝙀𝘿 ✅")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🔥 𝙍𝘼𝙁𝙏𝘼𝙍 🔥.!\n`{ms}` ms\n ⚔️𝙐𝙍𝘼𝙉𝙄𝙐𝙈 ✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
+        await event.edit(f"🔥 𝙍𝘼𝙁𝙏𝘼𝙍 🔥.!\n`{ms}` ms\n ⚔️ 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 ✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -739,7 +739,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n💀𝙍𝙀𝙎𝙏𝘼𝙍𝙏 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 𝘽𝙊𝙏𝙎☠️"
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n💀 𝙍𝙀𝙎𝙏𝘼𝙍𝙏 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 𝘽𝙊𝙏𝙎 ☠️"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
